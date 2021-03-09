@@ -23,3 +23,5 @@ console.log(typeof 'Sho' );
 
 sho = 'YES'
 // Since 'sho' was assigned a variable once it can be assinged a new variable without using 'let'
+console.log(typeof sho);
+//logs as 'String' since it was changed to a string; 
