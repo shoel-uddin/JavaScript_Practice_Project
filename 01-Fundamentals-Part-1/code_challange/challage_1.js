@@ -13,3 +13,12 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 
 GOOD LUCK 😀
 */
+
+let markOneWeight = 78
+let markOneHeight = 1.69
+
+let johnOneWeight = 92
+let johnOneHeight = 1.95
+
+let markBMI = markOneWeight / markOneHeight
+console.log(markBMI);
