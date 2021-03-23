@@ -10,3 +10,28 @@ HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
 */
+
+let markOneWeight = 78
+let markOneHeight = 1.69
+
+let johnOneWeight = 92
+let johnOneHeight = 1.95
+
+const markBMI = markOneWeight / markOneHeight ** 2
+//console.log("Mark's BMI : ", markBMI);
+
+const johnBMI = johnOneWeight / (johnOneHeight * johnOneHeight)
+//console.log("John's BMI : ", johnBMI);
+
+let greaterBMI
+// if (markBMI > johnBMI) {
+//     console.log(`Mark's BMI is higher than John's`);
+// } else {
+//     console.log("John's BMI is higher than Mark's!");
+//     }
+
+if (markBMI > johnBMI) {
+    console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI}`);
+} else {
+    console.log("John's BMI is higher than Mark's!");
+    }
