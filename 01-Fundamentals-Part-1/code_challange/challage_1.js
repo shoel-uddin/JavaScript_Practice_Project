@@ -21,10 +21,19 @@ let johnOneWeight = 92
 let johnOneHeight = 1.95
 
 let markBMI = markOneWeight / markOneHeight
-console.log("Mark's BMI : ", markBMI);
+//console.log("Mark's BMI : ", markBMI);
 
 let johnBMI = johnOneWeight / johnOneHeight
-console.log("John's BMI : ", johnBMI);
+//console.log("John's BMI : ", johnBMI);
 
 let markHigherBMI = markBMI > johnBMI
 console.log(markHigherBMI);
+
+markOneWeight = 95
+markOneHeight = 1.88
+
+johnOneWeight = 85
+johnOneHeight = 1.76
+
+markHigherBMI = markBMI > johnBMI
+console.log("Mark's BMI greater than John's :", markHigherBMI);
