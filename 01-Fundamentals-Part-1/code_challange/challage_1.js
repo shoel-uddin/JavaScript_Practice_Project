@@ -31,9 +31,11 @@ console.log(markHigherBMI);
 
 markOneWeight = 95
 markOneHeight = 1.88
+markBMI = markOneWeight / markOneHeight ** 2
 
 johnOneWeight = 85
 johnOneHeight = 1.76
+johnBMI = johnOneWeight / (johnOneHeight * johnOneHeight)
 
 markHigherBMI = markBMI > johnBMI
 console.log("Mark's BMI greater than John's :", markHigherBMI);
