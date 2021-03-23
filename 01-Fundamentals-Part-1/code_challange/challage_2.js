@@ -17,11 +17,11 @@ let markOneHeight = 1.69
 let johnOneWeight = 92
 let johnOneHeight = 1.95
 
-const markBMI = markOneWeight / markOneHeight ** 2
-//console.log("Mark's BMI : ", markBMI);
+let markBMI = markOneWeight / markOneHeight ** 2
+console.log("Mark's BMI : ", markBMI);
 
-const johnBMI = johnOneWeight / (johnOneHeight * johnOneHeight)
-//console.log("John's BMI : ", johnBMI);
+let johnBMI = johnOneWeight / (johnOneHeight * johnOneHeight)
+console.log("John's BMI : ", johnBMI);
 
 let greaterBMI
 // if (markBMI > johnBMI) {
@@ -34,4 +34,24 @@ if (markBMI > johnBMI) {
     console.log(`Mark's BMI (${markBMI}) is higher than John's BMI (${johnBMI})`);
 } else {
     console.log("John's BMI is higher than Mark's!");
+}
+
+console.log("*******************************");
+
+
+markOneWeight = 95
+markOneHeight = 1.88
+markBMI = markOneWeight / markOneHeight ** 2
+console.log(markBMI);
+
+johnOneWeight = 85
+johnOneHeight = 1.76
+johnBMI = johnOneWeight / (johnOneHeight * johnOneHeight)
+console.log(johnBMI);
+
+greaterBMI
+if (markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's BMI (${johnBMI})`);
+} else {
+    console.log(`John's BMI is (${johnBMI}) higher than Mark's BMI (${markBMI})!`);
     }
