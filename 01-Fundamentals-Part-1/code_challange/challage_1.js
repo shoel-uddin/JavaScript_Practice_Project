@@ -2,7 +2,7 @@
 // Coding Challenge #1
 
 /*
-Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 || mass / (height * height). (mass in kg and height in meter).
 
 1. Store Mark's and John's mass and height in variables
 2. Calculate both their BMIs using the formula (you can even implement both versions)
@@ -20,10 +20,10 @@ let markOneHeight = 1.69
 let johnOneWeight = 92
 let johnOneHeight = 1.95
 
-let markBMI = markOneWeight / markOneHeight
+let markBMI = markOneWeight / markOneHeight ** 2
 //console.log("Mark's BMI : ", markBMI);
 
-let johnBMI = johnOneWeight / johnOneHeight
+let johnBMI = johnOneWeight / (johnOneHeight * johnOneHeight)
 //console.log("John's BMI : ", johnBMI);
 
 let markHigherBMI = markBMI > johnBMI
