@@ -15,3 +15,19 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
 */
+
+const dolphinsScores = (96 + 108 + 89) / 3
+const koalasScores = (88 + 91 + 110) / 3
+console.log(`Dolphins Average: ${dolphinsScores}, Koalas Average: ${koalasScores}`);
+
+console.log("********************");
+
+if (dolphinsScores > koalasScores) {
+    console.log(`Dolphins are the winner with a score of ${dolphinsScores} vs ${koalasScores}`);
+} else if (dolphinsScores < koalasScores ) {
+    console.log(`Koalas are the winner with a score of ${koalasScores} vs ${dolphinsScores}`);
+} else if (dolphinsScores === koalasScores ) {
+    console.log('Dolphins and Koalas have an even score');
+} else {
+    console.log("Something went wrong, try again!");
+}
